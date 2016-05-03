@@ -15,6 +15,10 @@
             <datastoreId></datastoreId>
             <hostId></hostId>
             <vmFolderId></vmFolderId>
+            <customField>
+                <key></key>
+                <value></value>
+            </customField>
             <cpuReservation>
                 <limit></limit>
                 <reservation></reservation>
@@ -46,6 +50,10 @@
                 <edgeVmHaIndex></edgeVmHaIndex>
                 <value></value>
             </macAddress>
+            <fenceParameter>
+                <key></key>
+                <value></value>
+            </fenceParameter>
             <mtu></mtu>
             <enableProxyArp></enableProxyArp>
             <enableSendRedirects></enableSendRedirects>
