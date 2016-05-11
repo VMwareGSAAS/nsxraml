@@ -147,6 +147,7 @@ schemas:
     vShieldSolutionCreate: !include schemas/vShieldSolutionCreate.xml
     vShieldSolutionActivate: !include schemas/vShieldSolutionActivate.xml
     webResourcesCreate: !include schemas/webResourcesCreate.xml
+    vnicsCreate: !include schemas/vnicsCreate.xml
 securitySchemes:
   - basic:
       type: Basic Authentication
@@ -4412,6 +4413,7 @@ securitySchemes:
             description: always set to "patch"
         body:
           application/xml: #PDF pg 266
+              schema: vnicsCreate
       get:
         displayName: vnicsRead
         description: Retrieve all interfaces for Edge
