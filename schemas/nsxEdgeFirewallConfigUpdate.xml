@@ -17,8 +17,8 @@
         <icmp6Timeout></icmp6Timeout>
         <ipGenericTimeout></ipGenericTimeout>
     </globalConfig>
-    <rules>
-        <rule>
+    <firewallRules>
+        <firewallRule>
             <ruleTag></ruleTag>
             <name></name>
             <source>
@@ -28,7 +28,7 @@
             </source>
             <destination>
                 <groupingObjectId></groupingObjectId>
-                <vnicGroupId></vnicGroupId> 
+                <vnicGroupId></vnicGroupId>
                 <groupingObjectId></groupingObjectId>
                 <ipAddress></ipAddress>
             </destination>
@@ -46,6 +46,6 @@
             <enabled></enabled>
             <loggingEnabled></loggingEnabled>
             <description></description>
-        </rule>
-    </rules>
+        </firewallRule>
+    </firewallRules>
 </firewall>
