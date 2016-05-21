@@ -2,12 +2,10 @@
     <datacenterMoid></datacenterMoid>
     <tenant></tenant>
     <name></name>
-    <description></description>
     <fqdn></fqdn>
     <enableAesni></enableAesni>
     <enableFips></enableFips>
     <vseLogLevel></vseLogLevel>
-    <type></type>
     <vnics>
         <vnic>
             <label></label>
@@ -20,21 +18,24 @@
                     </secondaryAddresses>
                     <subnetMask></subnetMask>
                 </addressGroup>
+                <addressGroup>
+                    <primaryAddress></primaryAddress>
+                    <secondaryAddresses>
+                        <ipAddress></ipAddress>
+                    </secondaryAddresses>
+                    <subnetMask></subnetMask>
+                </addressGroup>
             </addressGroups>
-            <fenceParameter>
-              <key></key>
-              <value></value>
-            </fenceParameter>
             <mtu></mtu>
             <type></type>
             <isConnected></isConnected>
             <index></index>
             <portgroupId></portgroupId>
-            <enableProxyArp></enableProxyArp>
-            <enableSendRedirects></enableSendRedirects>
+            <enableProxyArp><enableProxyArp>
+            <enableSendRedirects><enableSendRedirects>
         </vnic>
     </vnics>
-    <appliances>
+    <appliances> 
         <applianceSize></applianceSize>
         <enableCoreDump></enableCoreDump>
         <appliance>
@@ -42,10 +43,6 @@
             <datastoreId></datastoreId>
             <hostId></hostId>
             <vmFolderId></vmFolderId>
-            <customField>
-              <key></key>
-              <value></value>
-            </customField>
             <cpuReservation>
                 <limit></limit>
                 <reservation></reservation>
@@ -69,6 +66,7 @@
         <enabled></enabled>
         <rulePriority></rulePriority>
     </autoConfiguration>
+    <type></type>
     <hypervisorAssist></hypervisorAssist>
     <edgeAssistId></edgeAssistId>
     <dnsClient>
@@ -80,27 +78,4 @@
         <enabled></enabled>
         <port></port>
     </queryDaemon>
-    <mgmtInterface>
-      <connectedToId></connectedToId>
-      <addressGroups>
-        <addressGroup>
-          <primaryAddress></primaryAddress>
-          <subnetMask></subnetMask>
-        </addressGroup>
-      </addressGroups>
-    </mgmtInterface>
-    <interfaces>
-      <interface>
-        <type></type>
-        <mtu></mtu>
-        <isConnected></isConnected>
-        <addressGroups>
-          <addressGroup>
-            <primaryAddress></primaryAddress>
-            <subnetMask></subnetMask>
-          </addressGroup>
-        </addressGroups>
-        <connectedToId></connectedToId>
-      </interface>
-    </interfaces>
 </edge>
