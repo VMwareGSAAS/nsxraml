@@ -43,13 +43,10 @@
             <hostId></hostId>
             <vmFolderId></vmFolderId>
             <customField>
-<<<<<<< HEAD
               <key></key>
               <value></value>
-=======
                 <key></key>
                 <value></value>
->>>>>>> 068d46e14af620da080ef33e454e5c451f86e900
             </customField>
             <cpuReservation>
                 <limit></limit>
@@ -63,8 +60,6 @@
             </memoryReservation>
         </appliance>
     </appliances>
-<<<<<<< HEAD
-=======
     <vnics> 
         <vnic>
             <index></index>
@@ -108,7 +103,6 @@
             </outShapingPolicy>
         </vnic>
     </vnics>
->>>>>>> 068d46e14af620da080ef33e454e5c451f86e900
     <cliSettings>
         <remoteAccess></remoteAccess>
         <userName></userName>
