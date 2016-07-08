@@ -8,32 +8,6 @@
     <enableFips></enableFips>
     <vseLogLevel></vseLogLevel>
     <type></type>
-    <vnics>
-        <vnic>
-            <label></label>
-            <name></name>
-            <addressGroups>
-                <addressGroup>
-                    <primaryAddress></primaryAddress>
-                    <secondaryAddresses>
-                        <ipAddress></ipAddress>
-                    </secondaryAddresses>
-                    <subnetMask></subnetMask>
-                </addressGroup>
-            </addressGroups>
-            <fenceParameter>
-              <key></key>
-              <value></value>
-            </fenceParameter>
-            <mtu></mtu>
-            <type></type>
-            <isConnected></isConnected>
-            <index></index>
-            <portgroupId></portgroupId>
-            <enableProxyArp></enableProxyArp>
-            <enableSendRedirects></enableSendRedirects>
-        </vnic>
-    </vnics>
     <appliances>
         <applianceSize></applianceSize>
         <enableCoreDump></enableCoreDump>
@@ -60,7 +34,7 @@
             </memoryReservation>
         </appliance>
     </appliances>
-    <vnics> 
+    <vnics>
         <vnic>
             <index></index>
             <name></name>
@@ -149,5 +123,3 @@
       </interface>
     </interfaces>
 </edge>
-
- 
